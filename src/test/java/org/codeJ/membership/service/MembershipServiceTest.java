@@ -1,9 +1,9 @@
 package org.codeJ.membership.service;
 
+import org.codeJ.dto.MembershipResponse;
 import org.codeJ.membership.entity.Membership;
 import org.codeJ.membership.entity.MembershipType;
 import org.codeJ.membership.repository.MembershipRepository;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -12,7 +12,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import static org.assertj.core.api.Assertions.*;
-import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
